@@ -8,9 +8,6 @@
     Perhaps a GUI
     </li>
     <li>
-    Multiple number ranges (1 - 100 for example), that could be chosen through input by the user.
-    </li>
-    <li>
     Game modes (More lives for example)
     </li>
     <li>

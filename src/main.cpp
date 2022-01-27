@@ -16,11 +16,20 @@ int random(int min, int max){
 
 int main(void){
     using namespace std;
-    
+
+    cout << "Choose the low of the range:  ";
+    int low;
+    cin >> low;
+
+    cout << "Choose the high of the range:  ";
+    int hgh;
+    cin >> hgh;
+
     //Call random function above
-    int num = random(1, 10);
+    int num = random(low, hgh);
+
     
-    cout << "I have chosen a number between 1-10. You have 3 guesses:  ";
+    cout << "I have chosen a number between " << low << " and " << hgh <<  ". You have 3 guesses:  ";
     
     // Convert intager into string for comparison, as i type this i realise it could have just been inputed as a string, but oh well it is implemented now.
     stringstream numtotext;
