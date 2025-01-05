@@ -42,17 +42,17 @@ int main(void){
     cin >> guess;
     
     //Lives and boolean for while loop
-    bool hasGuesses = false;
+    bool hasGuessed = false;
     int lives = 3;
 
     int halt;
 
     //cout << randstring << endl;  // <- to test if it is actually working
 
-    while(!hasGuesses && lives > 1){
+    while(!hasGuessed && lives > 1){
         if(guess.compare(randstring) == 0){
             cout << "Correct!";
-            hasGuesses = true;
+            hasGuessed = true;
             cin >> halt;
         } else{
             cout << "Guess again";
